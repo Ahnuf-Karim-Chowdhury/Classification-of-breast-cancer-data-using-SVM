@@ -102,10 +102,26 @@ This approach focuses on optimizing the SVM model to achieve the highest possibl
 ### Accuracy and Performance
 
 * The optimization processes (Randomized and Grid Search) aim to maximize the accuracy of the SVM model.
+* **Based on the graph below, the accuracy achieved by the optimized SVM model is 97.37%.**
 * The final accuracy of the model will depend on the random state of the data split, and the parameters found by the search.
 * The output to the console will display the accuracy of the best model found.
 * The plot will also show the accuracy in the title.
 * The model responds to new data inputs by loading the saved model, and using the loaded model to predict the class of the new data.
+
+### Visualization
+
+The following graph shows the performance of the optimized SVM model:
+
+![SVM Classification Accuracy](https://github.com/Ahnuf-Karim-Chowdhury/Classification-of-breast-cancer-data-using-SVM/blob/main/Approach%20-%2002%20-%20Saving%20the%20Most%20Accurate%20Data/Optimized%20Polynomial%20Graphical%20Representation.png?raw=true)
+
+**Explanation of the Graph:**
+
+* **X-axis (Test Data Index):** Represents the index of each data point in the test dataset.
+* **Y-axis (Class):** Represents the class label, where 0 indicates "Malignant" and 1 indicates "Benign".
+* **Blue line with circles:** Shows the actual class labels from the test dataset.
+* **Red line with crosses:** Shows the predicted class labels by the SVM model.
+
+The graph clearly demonstrates the close match between the actual and predicted labels, highlighting the high accuracy of the optimized SVM model.
 
 ### Usage
 

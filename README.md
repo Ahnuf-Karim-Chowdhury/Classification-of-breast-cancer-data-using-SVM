@@ -35,9 +35,16 @@ The project uses the breast cancer dataset provided by `sklearn`. The dataset co
 
 The graph plots the actual class labels (blue circles with dashed lines) against the predicted class labels (red crosses with solid lines). The alignment of these points shows that the model accurately predicts the majority of test samples, achieving an accuracy rate of **94.74%** for KNN classification. This high accuracy demonstrates the reliability of KNN in identifying breast cancer cases.
 
-#### SVM Results
+#### SVM Classification Accuracy Graph
 
-In comparison, SVM consistently achieves higher accuracy rates, frequently surpassing **96%**, making it a superior choice for the breast cancer classification task. The linear kernel proves effective for this dataset, enabling precise classification with minimal computational complexity.
+![SVM Accuracy Graph](https://github.com/Ahnuf-Karim-Chowdhury/Classification-of-breast-cancer-data-using-SVM/blob/main/Approach%20-%2001%20-%20Training%20it%20Newly%20Every%20Iteration/SVM%20Accuracy.png?raw=true)
+
+**Explanation of the Graph:**
+
+- **X-axis**: Test Data Index (represents the index of test data samples).
+- **Y-axis**: Class (0 = Malignant, 1 = Benign).
+
+This graph visualizes the actual class labels (blue circles with dashed lines) alongside the predicted labels (red crosses with solid lines). The strong agreement between the two confirms high classification accuracy. Based on the graph, the SVM model achieves an updated accuracy rate of **95.87%**, emphasizing its superior performance in distinguishing malignant and benign cases effectively.
 
 ### Response to New Data Input
 
